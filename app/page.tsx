@@ -4,6 +4,9 @@ import type { KedaiKopi } from "@/types/kedai";
 
 const kedaiList: KedaiKopi[] = kedaiData as KedaiKopi[];
 
+// Force rebuild timestamp
+const buildTime = new Date().toISOString();
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[var(--background)]">

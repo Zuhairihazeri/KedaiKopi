@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description:
     "Find the best kedai kopi and coffee shops near you in Malaysia. GPS location, amenities, specialties, and more.",
   keywords: ["kedai kopi", "coffee shop", "malaysia", "kopitiam", "white coffee"],
+  other: {
+    "build-timestamp": new Date().toISOString(),
+  },
 };
 
 export default function RootLayout({
