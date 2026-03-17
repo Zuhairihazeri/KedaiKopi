@@ -83,7 +83,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-[var(--accent)] hover:underline"
           >
-            Zek-san
+            Zuhairi Hazeri
           </a>
         </p>
       </footer>

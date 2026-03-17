@@ -49,7 +49,7 @@
     "rating": 4.1
   },
   {
-    "id": "old-town-white-coffee-kl",
+    "id": "oldtown-white-coffee-kl",
     "name": "OldTown White Coffee",
     "slug": "oldtown-white-coffee-kl",
     "description": "Modern chain serving Ipoh-style white coffee with contemporary twist. Air-conditioned comfort.",
@@ -281,5 +281,299 @@
     "openHours": "8:00 AM - 10:00 PM",
     "priceRange": "RM 8-25",
     "rating": 3.7
+  },
+  {
+    "id": "kopitiam-shah-alam",
+    "name": "Kopitiam Shah Alam",
+    "slug": "kopitiam-shah-alam",
+    "description": "Popular local kopitiam in Shah Alam serving traditional Malaysian coffee and breakfast.",
+    "location": {
+      "address": "Plaza Shah Alam, Jalan Tengku Amir Shah, 40000 Shah Alam, Selangor",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "coordinates": {
+        "lat": 3.0733,
+        "lng": 101.5185
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Traditional Kopi", "Nasi Lemak", "Roti Canai", "Mee Goreng"],
+    "amenities": ["Parking", "Air Con", "Takeaway", "Halal"],
+    "openHours": "6:30 AM - 8:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.0,
+    "featured": true
+  },
+  {
+    "id": "starbucks-shah-alam",
+    "name": "Starbucks Shah Alam",
+    "slug": "starbucks-shah-alam",
+    "description": "Modern Starbucks outlet with comfortable seating and premium coffee in Shah Alam city center.",
+    "location": {
+      "address": "City Centre Shah Alam, Jalan Tengku Amir Shah, 40000 Shah Alam, Selangor",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "coordinates": {
+        "lat": 3.0728,
+        "lng": 101.5203
+      }
+    },
+    "contact": {
+      "website": "https://www.starbucks.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["Frappuccino", "Espresso", "Pastries", "Sandwiches"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Drive Thru"],
+    "openHours": "7:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 3.9
+  },
+  {
+    "id": "oldtown-shah-alam",
+    "name": "OldTown White Coffee Shah Alam",
+    "slug": "oldtown-shah-alam",
+    "description": "Popular white coffee chain outlet in Shah Alam with extensive menu and family-friendly atmosphere.",
+    "location": {
+      "address": "SACC Mall, Jalan Perbandaran, 40000 Shah Alam, Selangor",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "coordinates": {
+        "lat": 3.0711,
+        "lng": 101.5167
+      }
+    },
+    "contact": {
+      "website": "https://www.oldtown.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["White Coffee", "Nasi Lemak", "Curry Laksa", "Toast"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Parking"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 5-15",
+    "rating": 3.8
+  },
+  {
+    "id": "mamak-shah-alam-24hr",
+    "name": "Restoran Mamak 24 Jam",
+    "slug": "mamak-shah-alam-24hr",
+    "description": "24-hour mamak restaurant in Shah Alam serving excellent teh tarik and local favorites.",
+    "location": {
+      "address": "Jalan Plumbum U7/84, Seksyen U7, 40000 Shah Alam, Selangor",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "coordinates": {
+        "lat": 3.0656,
+        "lng": 101.5089
+      }
+    },
+    "type": "Mamak",
+    "specialties": ["Teh Tarik", "Mee Goreng", "Roti Canai", "Nasi Kandar"],
+    "amenities": ["24 Hours", "Outdoor Seating", "Takeaway", "Halal", "Parking"],
+    "openHours": "24 Hours",
+    "priceRange": "RM 2-8",
+    "rating": 4.1
+  },
+  {
+    "id": "coffee-bean-subang-jaya",
+    "name": "The Coffee Bean & Tea Leaf Subang",
+    "slug": "coffee-bean-subang-jaya",
+    "description": "Premium coffee outlet in Subang Jaya with comfortable workspace and quality beverages.",
+    "location": {
+      "address": "Sunway Pyramid, 3, Jalan PJS 11/15, 47500 Subang Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Subang Jaya",
+      "coordinates": {
+        "lat": 3.0733,
+        "lng": 101.6067
+      }
+    },
+    "contact": {
+      "website": "https://www.coffeebean.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["Ice Blended", "Espresso", "Tea Lattes", "Muffins"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Parking"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 4.0
+  },
+  {
+    "id": "kedai-kopi-klang",
+    "name": "Kedai Kopi Klang",
+    "slug": "kedai-kopi-klang",
+    "description": "Traditional coffee shop in Klang famous for its strong local coffee and authentic atmosphere.",
+    "location": {
+      "address": "Jalan Tengku Kelana, 41000 Klang, Selangor",
+      "state": "Selangor",
+      "city": "Klang",
+      "coordinates": {
+        "lat": 3.0449,
+        "lng": 101.4457
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Traditional Kopi", "Kaya Toast", "Half-boiled Eggs", "Char Siu Bao"],
+    "amenities": ["Parking", "Takeaway", "Outdoor Seating"],
+    "openHours": "7:00 AM - 6:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.2
+  },
+  {
+    "id": "starbucks-sunway-pyramid",
+    "name": "Starbucks Sunway Pyramid",
+    "slug": "starbucks-sunway-pyramid",
+    "description": "Large Starbucks outlet in popular shopping mall with extended seating and full menu.",
+    "location": {
+      "address": "Sunway Pyramid, 3, Jalan PJS 11/15, 47500 Subang Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Subang Jaya",
+      "coordinates": {
+        "lat": 3.0728,
+        "lng": 101.6072
+      }
+    },
+    "contact": {
+      "website": "https://www.starbucks.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["Frappuccino", "Espresso", "Pastries", "Sandwiches"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Parking"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 4.1
+  },
+  {
+    "id": "kopitiam-pj-ss2",
+    "name": "Kopitiam PJ SS2",
+    "slug": "kopitiam-pj-ss2",
+    "description": "Popular neighborhood kopitiam in Petaling Jaya serving local breakfast and traditional coffee.",
+    "location": {
+      "address": "Jalan SS 2/64, SS 2, 47300 Petaling Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "coordinates": {
+        "lat": 3.1139,
+        "lng": 101.6189
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Traditional Kopi", "Wanton Mee", "Char Siu Rice", "Teh O"],
+    "amenities": ["Parking", "Air Con", "Takeaway"],
+    "openHours": "7:00 AM - 7:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.0
+  },
+  {
+    "id": "cafe-diem-pj",
+    "name": "Cafe Diem",
+    "slug": "cafe-diem-pj",
+    "description": "Trendy cafe in Petaling Jaya with specialty coffee, brunch menu, and Instagram-worthy interior.",
+    "location": {
+      "address": "Jalan 17/45, 46400 Petaling Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "coordinates": {
+        "lat": 3.1156,
+        "lng": 101.6467
+      }
+    },
+    "type": "Modern Coffee Shop",
+    "specialties": ["Specialty Coffee", "Brunch", "Avocado Toast", "Cold Brew"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Outdoor Seating"],
+    "openHours": "8:00 AM - 6:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 4.3,
+    "featured": true
+  },
+  {
+    "id": "oldtown-setia-alam",
+    "name": "OldTown White Coffee Setia Alam",
+    "slug": "oldtown-setia-alam",
+    "description": "Family-friendly white coffee outlet in Setia Alam with spacious seating and kids menu.",
+    "location": {
+      "address": "Setia City Mall, No.1, Jalan Setia Dagang AH U13/AH, 40170 Shah Alam, Selangor",
+      "state": "Selangor",
+      "city": "Shah Alam",
+      "coordinates": {
+        "lat": 3.0678,
+        "lng": 101.4544
+      }
+    },
+    "contact": {
+      "website": "https://www.oldtown.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["White Coffee", "Nasi Lemak", "Curry Laksa", "Toast"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Parking"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 5-15",
+    "rating": 3.9
+  },
+  {
+    "id": "kluang-station-kopitiam-pj",
+    "name": "Kluang Station Kopitiam PJ",
+    "slug": "kluang-station-kopitiam-pj",
+    "description": "Traditional kopitiam chain outlet serving authentic Malaysian coffee and heritage recipes.",
+    "location": {
+      "address": "1 Utama Shopping Centre, 1, Lebuh Bandar Utama, 47800 Petaling Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "coordinates": {
+        "lat": 3.1502,
+        "lng": 101.6147
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Traditional Kopi", "Roti Bakar", "Soft-boiled Eggs", "Laksa"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Parking"],
+    "openHours": "8:00 AM - 9:00 PM",
+    "priceRange": "RM 5-15",
+    "rating": 3.8
+  },
+  {
+    "id": "mamak-damansara",
+    "name": "Restoran Mamak Damansara",
+    "slug": "mamak-damansara",
+    "description": "Popular mamak restaurant in Damansara serving authentic Indian-Muslim cuisine and beverages.",
+    "location": {
+      "address": "Jalan Damansara, 60000 Kuala Lumpur",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.1478,
+        "lng": 101.6564
+      }
+    },
+    "type": "Mamak",
+    "specialties": ["Teh Tarik", "Mee Goreng", "Roti Canai", "Nasi Kandar"],
+    "amenities": ["24 Hours", "Outdoor Seating", "Takeaway", "Halal", "Parking"],
+    "openHours": "24 Hours",
+    "priceRange": "RM 2-8",
+    "rating": 4.2
+  },
+  {
+    "id": "village-roaster-coffee",
+    "name": "Village Roaster Coffee",
+    "slug": "village-roaster-coffee-pj",
+    "description": "Boutique coffee roastery in PJ specializing in single origin beans and artisanal brewing methods.",
+    "location": {
+      "address": "Jalan 14/20, 46100 Petaling Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "coordinates": {
+        "lat": 3.1022,
+        "lng": 101.6456
+      }
+    },
+    "contact": {
+      "website": "https://www.villageroaster.com"
+    },
+    "type": "Modern Coffee Shop",
+    "specialties": ["Single Origin", "Pour Over", "Espresso", "Coffee Tasting"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway"],
+    "openHours": "8:00 AM - 6:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 4.6,
+    "featured": true
   }
 ]

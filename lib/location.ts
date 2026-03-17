@@ -8,7 +8,10 @@ export function calculateDistance(
   from: Coordinates,
   to: Coordinates
 ): number {
-  return haversine(from, to, { unit: "km" });
+  // Haversine expects latitude/longitude keys, not lat/lng
+  const fromPoint = { latitude: from.lat, longitude: from.lng };
+  const toPoint = { latitude: to.lat, longitude: to.lng };
+  return haversine(fromPoint, toPoint, { unit: "km" });
 }
 
 /**
