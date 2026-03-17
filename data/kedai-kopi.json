@@ -1,0 +1,285 @@
+[
+  {
+    "id": "yip-kee-ipoh",
+    "name": "Yip Kee Coffee Shop",
+    "slug": "yip-kee-ipoh",
+    "description": "Famous for authentic Ipoh white coffee since 1958. Traditional kopitiam with marble-top tables and nostalgic atmosphere.",
+    "location": {
+      "address": "31, Jalan Bandar Timah, 30000 Ipoh, Perak",
+      "state": "Perak", 
+      "city": "Ipoh",
+      "coordinates": {
+        "lat": 4.5975,
+        "lng": 101.0901
+      }
+    },
+    "contact": {
+      "phone": "+605-254 4180"
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Ipoh White Coffee", "Kaya Toast", "Half-boiled Eggs", "Curry Mee"],
+    "amenities": ["Parking", "Takeaway", "Cash Only"],
+    "openHours": "7:00 AM - 6:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.3,
+    "featured": true
+  },
+  {
+    "id": "kedai-kopi-sin-yoon-loong",
+    "name": "Sin Yoon Loong Coffee Shop",
+    "slug": "sin-yoon-loong-ipoh",
+    "description": "Heritage coffee shop established in 1937. Known for traditional white coffee and dim sum.",
+    "location": {
+      "address": "15B, Jalan Bandar Timah, 30000 Ipoh, Perak",
+      "state": "Perak",
+      "city": "Ipoh", 
+      "coordinates": {
+        "lat": 4.5962,
+        "lng": 101.0891
+      }
+    },
+    "contact": {
+      "phone": "+605-255 6912"
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["White Coffee", "Dim Sum", "Steamed Bread", "Egg Tart"],
+    "amenities": ["Parking", "Air Con", "Takeaway"],
+    "openHours": "6:30 AM - 6:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.1
+  },
+  {
+    "id": "old-town-white-coffee-kl",
+    "name": "OldTown White Coffee",
+    "slug": "oldtown-white-coffee-kl",
+    "description": "Modern chain serving Ipoh-style white coffee with contemporary twist. Air-conditioned comfort.",
+    "location": {
+      "address": "Lot 10 Shopping Centre, 50 Jalan Sultan Ismail, 50250 Kuala Lumpur",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.1478,
+        "lng": 101.7089
+      }
+    },
+    "contact": {
+      "website": "https://www.oldtown.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["White Coffee", "Nasi Lemak", "Curry Laksa", "Toast"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Delivery"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 5-15",
+    "rating": 3.8
+  },
+  {
+    "id": "kopitiamkc-georgetown",
+    "name": "Kopitiam KC",
+    "slug": "kopitiam-kc-georgetown",
+    "description": "Authentic Penang kopitiam serving traditional coffee and local breakfast since 1960s.",
+    "location": {
+      "address": "91, Lebuh Kimberley, 10100 George Town, Penang",
+      "state": "Penang",
+      "city": "George Town",
+      "coordinates": {
+        "lat": 5.4148,
+        "lng": 100.3292
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Hainanese Coffee", "Char Kuey Teow", "Assam Laksa", "Rojak"],
+    "amenities": ["Parking", "Outdoor Seating", "Takeaway"],
+    "openHours": "7:00 AM - 7:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.2
+  },
+  {
+    "id": "starbucks-klcc",
+    "name": "Starbucks KLCC",
+    "slug": "starbucks-klcc",
+    "description": "International coffee chain with premium coffee, comfortable seating, and city views.",
+    "location": {
+      "address": "Suria KLCC, 50088 Kuala Lumpur",
+      "state": "Kuala Lumpur", 
+      "city": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.1578,
+        "lng": 101.7123
+      }
+    },
+    "contact": {
+      "website": "https://www.starbucks.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["Frappuccino", "Espresso", "Pastries", "Sandwiches"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Outdoor Seating"],
+    "openHours": "7:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 4.0
+  },
+  {
+    "id": "yut-kee-restaurant",
+    "name": "Yut Kee Restaurant",
+    "slug": "yut-kee-restaurant-kl",
+    "description": "Historic Hainanese coffee shop established in 1928. Famous for Hainanese pork chop and traditional coffee.",
+    "location": {
+      "address": "35, Jalan Kamunting, 50300 Kuala Lumpur",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur", 
+      "coordinates": {
+        "lat": 3.1569,
+        "lng": 101.6929
+      }
+    },
+    "contact": {
+      "phone": "+603-2698 8108"
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Hainanese Coffee", "Pork Chop", "Roti Bakar", "Marble Goby Fish"],
+    "amenities": ["Air Con", "Takeaway", "Halal"],
+    "openHours": "8:15 AM - 4:45 PM (Closed Sunday)",
+    "priceRange": "RM 5-15",
+    "rating": 4.4,
+    "featured": true
+  },
+  {
+    "id": "coffee-bean-mid-valley",
+    "name": "The Coffee Bean & Tea Leaf",
+    "slug": "coffee-bean-mid-valley",
+    "description": "Premium coffee chain known for signature ice blended drinks and gourmet coffee.",
+    "location": {
+      "address": "Mid Valley Megamall, 59200 Kuala Lumpur",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.1187,
+        "lng": 101.6769
+      }
+    },
+    "contact": {
+      "website": "https://www.coffeebean.com.my"
+    },
+    "type": "Chain",
+    "specialties": ["Ice Blended", "Espresso", "Tea Lattes", "Muffins"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 3.9
+  },
+  {
+    "id": "restoran-yusoof-dan-zakhir",
+    "name": "Restoran Yusoof Dan Zakhir",
+    "slug": "restoran-yusoof-dan-zakhir-georgetown",
+    "description": "Famous mamak in Georgetown serving excellent teh tarik and local favorites 24/7.",
+    "location": {
+      "address": "Jalan Penang, 10000 George Town, Penang",
+      "state": "Penang",
+      "city": "George Town",
+      "coordinates": {
+        "lat": 5.4164,
+        "lng": 100.3327
+      }
+    },
+    "type": "Mamak",
+    "specialties": ["Teh Tarik", "Mee Goreng", "Roti Canai", "Nasi Kandar"],
+    "amenities": ["24 Hours", "Outdoor Seating", "Takeaway", "Halal"],
+    "openHours": "24 Hours",
+    "priceRange": "RM 2-8",
+    "rating": 4.3
+  },
+  {
+    "id": "artisan-roast-coffee",
+    "name": "Artisan Roast Coffee",
+    "slug": "artisan-roast-coffee-pj",
+    "description": "Specialty coffee roaster with single origin beans and expert baristas. Perfect for coffee enthusiasts.",
+    "location": {
+      "address": "SS2 Mall, Jalan SS 2/67, 47300 Petaling Jaya, Selangor",
+      "state": "Selangor",
+      "city": "Petaling Jaya",
+      "coordinates": {
+        "lat": 3.1147,
+        "lng": 101.6194
+      }
+    },
+    "contact": {
+      "website": "https://www.artisanroast.com.my"
+    },
+    "type": "Modern Coffee Shop",
+    "specialties": ["Single Origin", "Pour Over", "Espresso", "Cold Brew"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway", "Outdoor Seating"],
+    "openHours": "8:00 AM - 8:00 PM",
+    "priceRange": "RM 8-25", 
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": "cafe-malacca-jonker-street",
+    "name": "Cafe Malacca",
+    "slug": "cafe-malacca-jonker-street",
+    "description": "Heritage cafe on historic Jonker Street serving Peranakan coffee and local delights.",
+    "location": {
+      "address": "156, Jalan Hang Jebat, 75200 Malacca",
+      "state": "Melaka",
+      "city": "Malacca",
+      "coordinates": {
+        "lat": 2.1944,
+        "lng": 102.2447
+      }
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Peranakan Coffee", "Cendol", "Chicken Rice Balls", "Satay Celup"],
+    "amenities": ["Air Con", "Takeaway", "Outdoor Seating"],
+    "openHours": "9:00 AM - 6:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.0
+  },
+  {
+    "id": "kluang-rail-coffee",
+    "name": "Kluang Rail Coffee",
+    "slug": "kluang-rail-coffee-johor",
+    "description": "Historic railway station coffee shop famous for its traditional kopi and roti bakar since 1938.",
+    "location": {
+      "address": "Jalan Stesen, 86000 Kluang, Johor",
+      "state": "Johor",
+      "city": "Kluang",
+      "coordinates": {
+        "lat": 2.0306,
+        "lng": 103.3186
+      }
+    },
+    "contact": {
+      "phone": "+607-772 1020"
+    },
+    "type": "Traditional Kopitiam",
+    "specialties": ["Traditional Kopi", "Roti Bakar", "Soft-boiled Eggs", "Local Toast"],
+    "amenities": ["Parking", "Outdoor Seating", "Takeaway"],
+    "openHours": "7:00 AM - 7:00 PM",
+    "priceRange": "RM 2-8",
+    "rating": 4.2,
+    "featured": true
+  },
+  {
+    "id": "pacific-coffee-pavilion",
+    "name": "Pacific Coffee",
+    "slug": "pacific-coffee-pavilion-kl",
+    "description": "Hong Kong-style coffee chain offering premium coffee and light meals in modern setting.",
+    "location": {
+      "address": "Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur",
+      "state": "Kuala Lumpur",
+      "city": "Kuala Lumpur",
+      "coordinates": {
+        "lat": 3.1490,
+        "lng": 101.7131
+      }
+    },
+    "contact": {
+      "website": "https://www.pacificcoffee.com"
+    },
+    "type": "Chain",
+    "specialties": ["Flat White", "Iced Coffee", "Paninis", "Salads"],
+    "amenities": ["WiFi", "Air Con", "Card Payment", "Takeaway"],
+    "openHours": "8:00 AM - 10:00 PM",
+    "priceRange": "RM 8-25",
+    "rating": 3.7
+  }
+]

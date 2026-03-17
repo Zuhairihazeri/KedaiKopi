@@ -1,65 +1,92 @@
-import Image from "next/image";
+import KedaiDirectory from "@/components/kedaikopi/kedai-directory";
+import kedaiData from "@/data/kedai-kopi.json";
+import type { KedaiKopi } from "@/types/kedai";
+
+const kedaiList: KedaiKopi[] = kedaiData as KedaiKopi[];
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-[var(--background)]">
+      {/* Header */}
+      <header className="border-b border-[var(--border)] bg-[var(--surface)]">
+        <div className="mx-auto max-w-6xl px-4 py-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl font-bold tracking-tight text-[var(--foreground)]">
+                <span className="text-[var(--accent)]">Kedai</span>Kopi
+              </h1>
+              <p className="text-sm text-[var(--muted)]">
+                Discover the best coffee shops in Malaysia
+              </p>
+            </div>
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[var(--accent-subtle)]">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--accent)"
+                strokeWidth="2"
+              >
+                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <path d="M16 10a4 4 0 01-8 0" />
+              </svg>
+            </div>
+          </div>
+
+          {/* Stats */}
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
+            <div className="rounded-lg bg-[var(--surface-2)] px-3 py-2 text-center">
+              <p className="text-lg font-bold text-[var(--foreground)]">
+                {kedaiList.length}
+              </p>
+              <p className="text-xs text-[var(--muted)]">Coffee Shops</p>
+            </div>
+            <div className="rounded-lg bg-[var(--surface-2)] px-3 py-2 text-center">
+              <p className="text-lg font-bold text-[var(--foreground)]">
+                {new Set(kedaiList.map(k => k.location.state)).size}
+              </p>
+              <p className="text-xs text-[var(--muted)]">States</p>
+            </div>
+            <div className="rounded-lg bg-[var(--surface-2)] px-3 py-2 text-center">
+              <p className="text-lg font-bold text-[var(--foreground)]">
+                {kedaiList.filter(k => k.type === "Traditional Kopitiam").length}
+              </p>
+              <p className="text-xs text-[var(--muted)]">Kopitiam</p>
+            </div>
+            <div className="rounded-lg bg-[var(--surface-2)] px-3 py-2 text-center">
+              <p className="text-lg font-bold text-[var(--foreground)]">
+                {kedaiList.filter(k => k.amenities.includes("WiFi")).length}
+              </p>
+              <p className="text-xs text-[var(--muted)]">With WiFi</p>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+      </header>
+
+      {/* Main Content */}
+      <div className="mx-auto max-w-6xl px-4 py-8">
+        <KedaiDirectory kedaiList={kedaiList} />
+      </div>
+
+      {/* Footer */}
+      <footer className="border-t border-[var(--border)] py-8 text-center text-xs text-[var(--muted)]">
+        <p>
+          GPS location-based kedai kopi discovery &middot; Real-time distance calculation
+        </p>
+        <p className="mt-1">
+          Built by{" "}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://github.com/Zuhairihazeri"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-[var(--accent)] hover:underline"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            Zek-san
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        </p>
+      </footer>
+    </main>
   );
 }
